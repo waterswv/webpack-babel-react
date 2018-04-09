@@ -1,0 +1,7 @@
+{
+  "name": "webpack-babel-react",
+  "devDependencies": {
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
