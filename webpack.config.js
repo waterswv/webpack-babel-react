@@ -12,6 +12,7 @@ const paths = {
 
 // Webpack configuration
 module.exports = {
+  mode: 'development',
   entry: path.join(paths.JS, 'app.js'),
   output: {
     path: paths.DIST,
