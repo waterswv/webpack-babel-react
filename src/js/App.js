@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Search from './Search'
+import SearchableList from './SearchableList'
 
 import '../css/style.css';
 
@@ -10,7 +10,7 @@ export default class Hello extends Component {
     return (
       <div>
         Hello from react
-        <Search />
+        <SearchableList />
       </div>
     );
   }
